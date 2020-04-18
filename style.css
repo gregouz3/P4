@@ -571,6 +571,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #lightbox-modal .modal-dialog {
@@ -585,13 +586,14 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 15px ;
+    display: flex;
+    justify-content: center;
 }
 
 .close-lightbox {
@@ -638,7 +640,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 15px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -694,7 +696,8 @@ h2 {
     margin-top: 0;
 }
 p {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.6;
     font-weight: normal;
 }
 
@@ -739,6 +742,16 @@ h3 {
     font-weight: 700;
     color: #575757!important;
 }
+
+
+#bloc-4-portfolio h3{
+    font-size: 20px;
+    color: #333333!important;
+    opacity: 0.9;
+
+}
+
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -1053,6 +1066,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    #bloc-4-portfolio img {
+        margin: auto;
+    }
+
+    .lightbox-caption {
+        font-size: 15px;
+    }
+
+
 }
 
 @media (max-width: 400px) {
